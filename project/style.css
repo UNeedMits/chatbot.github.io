@@ -4,13 +4,11 @@
     box-sizing: border-box;
     font-family: "poppins",sans-serif;
 }
-body{
-    background: #e3f2fd;
-}
+
 .chatbot-toggler{
     position: fixed;
-    right: 40px;
-    bottom: 35px;
+    right: 25px;
+    bottom: 2px;
     height: 50px;
     width: 50px;
     color: #fff;
@@ -20,7 +18,7 @@ body{
     justify-content: center;
     outline: none;
     cursor: pointer;
-    background: red;
+    background: #1d5cbd;
     border-radius: 50%;
     transition: all 0.2s ease;
 }
@@ -39,8 +37,8 @@ body{
 }
 .chatbot{
     position: fixed;
-    right: 40px;
-    bottom: 100px;
+    right: 20px;
+    bottom: 55px;
     width: 420px;
     transform: scale(0.5);
     opacity: 0;
@@ -52,6 +50,7 @@ body{
     box-shadow: 0 0 128px 0 rgba(0,0,0,0,1),
                 0 32px 64px -48px rgba(0,0,0,0,5);
     transition: all 0.1s ease;
+    border: 1px solid #00000012;
 }
 .show-chatbot .chatbot{
     transform: scale(1);
@@ -59,7 +58,7 @@ body{
     pointer-events:auto;
 }
 .chatbot header{
-    background:red;
+    background:#1d5cbd;
     padding: 16px 0;
     text-align: center;
 
@@ -90,7 +89,7 @@ body{
     width: 32px;
     color: #fff;
     align-self: flex-end;
-    background: red;
+    background: #1d5cbd;
     text-align: center;
     line-height: 32px;
     border-radius: 4px;
@@ -107,7 +106,7 @@ body{
     font-size: 0.95rem;
     padding: 12px 16px;
     border-radius: 10px 10px 0 10px;
-    background:red;
+    background:#1d5cbd;
     
 }
 .chatbox .chat p.error{
@@ -143,7 +142,7 @@ body{
     align-self: flex-end;
     height: 55px;
     line-height: 55px;
-    color: red;
+    color: #1d5cbd;
     font-size: 1.35rem;
     cursor: pointer;
     visibility: hidden;
